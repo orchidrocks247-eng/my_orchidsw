@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informational student project website for N. K. Orchid College of Engineering & Technology, Solapur.">
+  <title>Orchid College | Solapur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="logo">O</span><span>ORCHID <small>COLLEGE OF ENGINEERING & TECHNOLOGY</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#departments">Departments</a>
+    <a href="#admissions">Admissions</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">NAGESH KARAJAGI ORCHID COLLEGE • SOLAPUR</p>
+    <h1>Learn today.<br><em>Lead tomorrow.</em></h1>
+    <p class="hero-copy">A student-created information website highlighting engineering education, departments and campus opportunities at Orchid College, Solapur.</p>
+    <div class="hero-actions"><a class="btn primary" href="#departments">Explore departments</a><a class="btn outline" href="#about">Discover the college</a></div>
+    <p class="notice">Unofficial student project — use the college's official website for authoritative updates.</p>
+  </div>
+  <div class="hero-art" aria-label="Abstract campus illustration">
+    <div class="sun"></div><div class="building"><div class="roof"></div><div class="windows"></div><div class="sign">ORCHID</div></div>
+    <div class="plant plant-one">✦</div><div class="plant plant-two">✦</div>
+  </div>
+</section>
+
+<section class="facts">
+  <div><strong>2008–09</strong><span>Established (academic year)</span></div>
+  <div><strong>6</strong><span>Engineering departments featured</span></div>
+  <div><strong>A+</strong><span>NAAC accreditation stated by college</span></div>
+  <div><strong>Autonomous</strong><span>Institute status</span></div>
+</section>
+
+<section class="section about" id="about">
+  <div class="section-heading"><p class="eyebrow">ABOUT THE INSTITUTE</p><h2>Engineering with purpose.</h2></div>
+  <div class="about-grid">
+    <div><p id="aboutText">N. K. Orchid College of Engineering & Technology (NKOCET), Solapur, is managed by Pradnya Niketan Education Society, Pune. The institute focuses on technical education, practical learning, innovation and student development.</p><p class="muted">The college website describes the institute as autonomous, AICTE-approved and NAAC A+ accredited. Please verify current approvals and accreditation status on the official website.</p><a class="text-link" href="https://orchidengg.ac.in/" target="_blank" rel="noopener">Visit official college website ↗</a></div>
+    <div class="quote-card"><span class="quote-mark">“</span><h3>Knowledge. Innovation. Excellence.</h3><p>A simple message for curious minds ready to build what comes next.</p></div>
+  </div>
+</section>
+
+<section class="section departments" id="departments">
+  <div class="section-heading"><p class="eyebrow">ACADEMIC AREAS</p><h2>Explore departments</h2><p class="muted">Department list based on the college's published website.</p></div>
+  <div class="department-grid" id="departmentGrid">
+    <article class="department-card"><span>01</span><h3>Artificial Intelligence & Data Science</h3><p>Intelligent systems, data analytics and modern computing.</p></article>
+    <article class="department-card"><span>02</span><h3>Civil Engineering</h3><p>Planning, design and construction of infrastructure.</p></article>
+    <article class="department-card"><span>03</span><h3>Computer Science & Engineering</h3><p>Software, computing and problem solving.</p></article>
+    <article class="department-card"><span>04</span><h3>Electronics & Telecommunication</h3><p>Electronics, communication, embedded systems and networks.</p></article>
+    <article class="department-card"><span>05</span><h3>Electrical Engineering</h3><p>Electrical systems, power, machines and control.</p></article>
+    <article class="department-card"><span>06</span><h3>Mechanical Engineering</h3><p>Design, manufacturing, materials and mechanics.</p></article>
+  </div>
+</section>
+
+<section class="admissions" id="admissions">
+  <div><p class="eyebrow">ADMISSIONS</p><h2>Take the next step.</h2><p>For current eligibility, application dates, fee details and admission procedures, consult the official admissions page. Information can change each academic year.</p></div>
+  <a class="btn light" href="https://orchidengg.ac.in/admissions/" target="_blank" rel="noopener">Official admissions information ↗</a>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="section-heading"><p class="eyebrow">GET IN TOUCH</p><h2>Contact the college</h2></div>
+  <div class="contact-grid">
+    <div class="contact-card"><span>⌖</span><h3>Address</h3><p id="address">Gat No. 16, Solapur–Tuljapur Road, Tale-Hipparaga, Solapur – 413002, Maharashtra, India.</p></div>
+    <div class="contact-card"><span>☎</span><h3>Phone</h3><p><a href="tel:+912172990051">+91 217 299 0051</a></p></div>
+    <div class="contact-card"><span>✉</span><h3>Email</h3><p><a href="mailto:office@orchidengg.ac.in">office@orchidengg.ac.in</a></p></div>
+  </div>
+  <p class="small-note">Contact information is reproduced from the official college contact page. Please confirm before visiting or sending documents.</p>
+</section>
+</main>
+
+<footer><a class="brand footer-brand" href="#home"><span class="logo">O</span><span>ORCHID <small>COLLEGE WEBSITE PROJECT</small></span></a><p>Created as an educational project using Java, HTML, CSS and JavaScript.</p><p>© <span id="year"></span> Student project. Not an official college website.</p></footer>
+<script src="app.js"></script>
+</body>
+</html>
